@@ -16,7 +16,7 @@ We use AnomalyDiffusion masks for MVTec-AD and SeaS for VisA/Real-IAD.
 
 We have released the generated image-mask pairs for MVTec-AD.
 
-Generated 500 image-mask pairs: [Google Drive Link](https://drive.google.com/drive/folders/1_RxRJy-PqFTEgja3vdkwf7BnaVhnPgrl?usp=drive_link)
+Generated 500 image-mask pairs: [Google Drive Link](https://drive.google.com/drive/folders/1clU5fkX5juxuKwDHhsIzRJ_hpKkVxFNT?usp=sharing)
 
 ## Normal Data Augmentation
 
