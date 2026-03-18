@@ -38,6 +38,8 @@ We provide three ways to run and evaluate our anomaly generation code:
 python ./app_edit_anomaly_mask.py
 ```
 
+![Interactive Web UI](./output/web.png)
+
 ------
 
 2. **Jupyter Notebook** (Requires approx. 16GB VRAM)
@@ -45,6 +47,8 @@ python ./app_edit_anomaly_mask.py
 ```
 edit_anomaly_mask.ipynb
 ```
+
+------
 
 3. Generate 1000 anomaly images per anomaly type.  About 24G.
 
@@ -114,6 +118,16 @@ python test-classification.py --mvtec_path $path_to_mvtec \
  --generated_data_path $path_to_the_generated_data \
  --checkpoint_path $path_to_save_checkpoint
 ```
+
+## Results of anomaly image generation
+
+The generation results of anomaly images and normal images are shown as follows:
+
+![Anomaly Generation Result](./output/mvtec.png)
+
+![Anomaly Generation Result](./output/visa.png)
+
+![Anomaly Generation Result](./output/other.png)
 
 ## Citation
 
