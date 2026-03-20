@@ -1,4 +1,4 @@
-# One-to-More: High-Fidelity Training-Free Anomaly Generation with Attention Control
+# [One-to-More: High-Fidelity Training-Free Anomaly Generation with Attention Control](https://arxiv.org/abs/2603.18093)
 
 
 ## Installation
@@ -16,7 +16,7 @@ We use AnomalyDiffusion masks for MVTec-AD and SeaS for VisA/Real-IAD.
 
 We have released the generated image-mask pairs for MVTec-AD.
 
-Generated 500 image-mask pairs: [Google Drive Link](https://drive.google.com/drive/folders/1clU5fkX5juxuKwDHhsIzRJ_hpKkVxFNT?usp=sharing)
+Generated 500 image-mask pairs: [Google Drive Link](https://drive.google.com/drive/folders/1_RxRJy-PqFTEgja3vdkwf7BnaVhnPgrl?usp=drive_link)
 
 ## Normal Data Augmentation
 
@@ -132,3 +132,16 @@ The generation results of anomaly images and normal images are shown as follows:
 ## Citation
 
 If you find our work useful in your research, please consider citing our paper.
+
+```
+@misc{rao2026onetomorehighfidelitytrainingfreeanomaly,
+      title={One-to-More: High-Fidelity Training-Free Anomaly Generation with Attention Control}, 
+      author={Haoxiang Rao and Zhao Wang and Chenyang Si and Yan Lyu and Yuanyi Duan and Fang Zhao and Caifeng Shan},
+      year={2026},
+      eprint={2603.18093},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.18093}, 
+}
+```
+
