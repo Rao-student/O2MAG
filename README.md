@@ -16,7 +16,7 @@ We use AnomalyDiffusion masks for MVTec-AD and SeaS for VisA/Real-IAD.
 
 We have released the generated image-mask pairs for MVTec-AD.
 
-Generated 500 image-mask pairs: [Google Drive Link](https://drive.google.com/drive/folders/1_RxRJy-PqFTEgja3vdkwf7BnaVhnPgrl?usp=drive_link)
+Generated 500 image-mask pairs: [Google Drive Link](https://drive.google.com/drive/folders/1clU5fkX5juxuKwDHhsIzRJ_hpKkVxFNT?usp=sharing)
 
 ## Normal Data Augmentation
 
@@ -53,7 +53,7 @@ edit_anomaly_mask.ipynb
 3. Generate 1000 anomaly images per anomaly type.  About 24G.
 
 ```
-python edit_anomaly_moregpu_oneshot.py --root ./datasets/mvtec \
+python edit_anomaly_moregpu_fewshot.py --root ./datasets/mvtec \
     --normal_path ./data_agument
     --sourece_image_mask ./anomalydiffusion/generated_mask \
     --embedding_file ./embed_bank/mvtec \
